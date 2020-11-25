@@ -1,5 +1,9 @@
 ## Verified to work in Release
+This project was derived from the Django project in [awesome-compose](https://github.com/docker/awesome-compose)
+
 In order to make this project work in Release, we had to allow hosts on * in app/example/settings.py on line 37. This allows incoming connections from any host.
+
+To make this project run in [Release](https://releaseapp.io), simply create a new application with this repository.
 
 ## Compose sample application
 ### Django application in dev mode
